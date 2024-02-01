@@ -1,0 +1,219 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigation-grocery{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-items {
+    display: table;
+    width: 50%;
+}
+
+.navigation-items td {
+    display: table-cell;
+    padding: 8px 16px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+header {
+    text-align: center;
+}
+
+header-img{
+    max-width: 100%;
+    height: 300px;
+}
+
+#slider-container {
+    width: 50%; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+#slider {
+    display: flex; 
+    transition: transform 0.5s ease; 
+}
+
+#slider img {
+    width: 100%; 
+}
+
+#prevBtn,
+#nextBtn {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#prevBtn {
+    left: 10px; 
+}
+
+#nextBtn {
+    right: 10px; 
+}
+
+#our-products {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.our-product{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.our-product div {
+    text-align: center;
+}
+
+.circle{
+    widows: 100px;
+    height: 100px;
+    border: 2px solid green;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact-us {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inquiry-customer {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.inquiry-customer p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.inquiry-form {
+    width: 100%;
+}
+
+.inquiry-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inquiry-form input[type="text"],
+.inquiry-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inquiry-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.inquiry-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.inquiry-form button[type="submit"]:focus {
+    outline: none;
+}
+
+#reviews {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#reviews h2 {
+    text-align: center;
+    color: #333;
+}
+
+#reviews p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+#reviews p b {
+    font-weight: bold;
+    color: #333;
+}
+
+#reviews p i {
+    font-style: italic;
+}
+
+#reviews p:first-child {
+    margin-top: 0;
+}
+
+#special-offers {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #special-offers h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #special-offers p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  #special-offers b {
+    color: #000;
+  }
+  
+  #special-offers p:nth-child(odd) {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #special-offers p:nth-child(even) {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
